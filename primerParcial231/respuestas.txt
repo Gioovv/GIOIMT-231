@@ -1,0 +1,79 @@
+Tarea 1: Navegación y Creación de Carpetas
+1. Restaura los permisos mínimos necesarios para poder leer y modificar todo en
+primerParcial231.
+2. Crea la carpeta Tarea1, crea otra subcarpeta llamada extraFolder y, dentro de ella, un archivo
+notesExtra.txt.
+3. Muestra o guarda la salida del comando date para registrar la hora en que realizaste esta tarea
+(puedes redirigir la salida a un archivo, por ejemplo fechaTarea1.txt).
+4. Explica en respuestas.txt los comandos de navegación que usaste (pwd, cd, ls, mkdir, etc.) y
+por qué.Archivo de Respuestas: respuestas.txt
+
+Datos del Estudiante
+- Nombre Completo:Yoselin Giovanna Tarifa Ibarra  
+- URL de GitHub de la carpeta del examen:
+
+---
+
+## Tarea 1: Navegación y Creación de Carpetas
+
+- Permiso octal usado para restaurar permiso minimo de la carpeta primerParcial:
+  chmod 777 -R primerParcial231
+- Comandos usados y justificaciones :
+  chmod 777 Cambia los permisos de un archivo o directorio 
+  -R para dar permisos a todos los archivos que esten dentro de primerParcial
+  mkdir crea un nuevo directorio con el nombre especificado
+  touch crea un archivo vacio 
+  cd cambia el directorio actual  
+  jue 13 mar 2025 11:27:44 -04 
+
+---
+
+## Tarea 2: Permisos en Formato Octal
+- Permiso octal usado para esta tarea :
+chmod 600 mainConfig.cfg
+jue 13 mar 2025 11:33:42 -04
+
+- Comandos usados y justificaciones :
+600= lectura 4+ escritura2 + ejecucion 0 = 6
+     lectura 0 + escritura 0 + ejecucion 0= 0 
+     lectura 0 + escritura 0 + ejecucion 0= 0
+---
+## Tarea 3: Scripting Básico 
+- Permiso octal usado para el `basicScript.sh`: 
+  jue 13 mar 2025 12:03:55 -04
+
+- Comandos usados y justificaciones :
+Ingrese su nombre: 
+giovv
+Bienvenido giovv 
+mkdir: no se puede crear el directorio «ubicaciones»: El archivo ya existe
+/home/giovv/GIOIMT-231/primerParcial231/tarea3/ubicacion
+tarea1 contenido
+[drwxrwxrwx]  tarea3
+├── [-rwxrwxrwx]  basicScript.sh
+├── [-rw-rw-r--]  fechaTarea3.txt
+├── [drwxrwxr-x]  ubicacion
+│   └── [-rw-rw-r--]  ubicacion.txt
+└── [drwxrwxr-x]  ubicaciones
+
+
+
+
+
+---
+## Tarea 4: Edición con nano o vim 
+
+- para que usamos el comando `cat` ?:
+
+- Comandos usados y justificaciones :
+
+
+---
+## Tarea 5: Final
+
+- para que usamos el comando `tree -p` y para que su argumento `-p` ?:
+
+- Permiso octal para `entregaFinal.txt`: 
+
+- Comandos usados y justificaciones :
+
